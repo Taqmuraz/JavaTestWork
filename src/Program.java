@@ -25,6 +25,7 @@ public class Program
 			} catch (Exception ex)
 			{
 				System.out.println("Error while computing : " + ex.toString());
+				return;
 			}
 		}
 	}
